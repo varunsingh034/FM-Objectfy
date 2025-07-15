@@ -8,7 +8,7 @@ All the required modules list are present in requirement.txt use the following c
 
 
 ## For Web page:
-"python -m venv venv"
+"python -m venv venv"<br\>
 "venv/Scripts/Activate.ps1"
 "pip install -r requirment.txt"
 "python app.py"
