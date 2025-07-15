@@ -8,13 +8,13 @@ All the required modules list are present in requirement.txt use the following c
 
 
 ## For Web page:
-"python -m venv venv"<br\>
-"venv/Scripts/Activate.ps1"
-"pip install -r requirment.txt"
-"python app.py"
+"python -m venv venv"<br/>
+"venv/Scripts/Activate.ps1"<br/>
+"pip install -r requirment.txt"<br/>
+"python app.py"<br/>
 
 # For video app:
-"python detect_mask_video.py"
+"python detect_mask_video.py"<br/>
 
 # For termination:
-"Ctrl+c"
+"Ctrl+c"<br/>
