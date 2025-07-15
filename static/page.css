@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+html,body{
+    height: auto;
+    width: auto;
+    background-image: url(https://png.pngtree.com/png-clipart/20200401/original/pngtree-people-in-medical-face-mask-concept-of-coronavirus-png-image_5335451.jpg);
+    background-size: cover;
+    background-position: right;
+}
+
+#project{
+
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#project h1{
+    width: 900px;
+    font-size: 100px;
+    color: #df90ff;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 10px;
+    background-image: url(https://www.shutterstock.com/image-vector/awareness-wear-face-mask-during-260nw-1674318196.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+
+
+#image{
+    
+    height: max-content;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center; 
+    
+}
+
+#image h1{
+    height: 60px;
+    width: 500px;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-size: 45px;
+    background-color: greenyellow;
+    padding: 3px 5px;
+    font-style: oblique;
+}
+
+#input {
+    
+
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+#input input{
+    height: 50px;
+    width: 600px;
+    font-size: 45px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+
+button{
+    border: 5px dotted black;
+    color: black;
+    font-size: 45px;
+    width: 150px;
+    background-color: #fff;
+
+}
+
+#input button:hover{
+    transition: all;
+    border-radius: 7px solid black;
+}
+
+#output{
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+#output h2{
+    height: max-content;
+    width: max-content;
+    background-color: cyan;
+    font-size: 90px;
+    border-radius: 5px;
+}
