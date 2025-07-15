@@ -11,25 +11,20 @@
         <div id="project">
             <h1>FM Objectfy</h1>
         </div>
-
-
         <div id = "image">
             <h1>Upload a Face Image</h1>
         </div>
-
         <div id="input">
             <form method="POST" enctype="multipart/form-data">
                 <input type="file" name="image" required />
                 <button type="submit">Check</button>
             </form>
         </div>
-        
         <div id="output">
             {% if label %}
                 <h2>Prediction: <br> {{ label }}</h2>
                 <img src="{{ image }}" width="300px" />
             {% endif %}
         </div>
-
     </body>
 </html>
